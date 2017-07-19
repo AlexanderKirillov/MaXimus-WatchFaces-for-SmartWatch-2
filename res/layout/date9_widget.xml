@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="215.0px" android:layout_height="170.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:widgets="http://schemas.android.com/apk/res-auto">
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout  android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="155.0px" android:layout_marginTop="76.0px">
+       <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="@android:color/white"  android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" widgets:textSize="14.5px" widgets:timeType="days_of_week" widgets:fontPath="Clockopia.otf" widgets:template="EE "/>
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" widgets:textSize="14.5px" widgets:timeType="days_of_month" widgets:fontPath="Clockopia.otf" widgets:template=" dd"/> 
+        </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+</RelativeLayout>

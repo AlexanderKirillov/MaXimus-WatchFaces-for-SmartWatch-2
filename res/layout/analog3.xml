@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widgets="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/com.sonymobile.smartconnect.extension.testclock"
+    android:layout_width="215px"
+    android:layout_height="170px"
+    android:background="@android:color/transparent"
+    android:baselineAligned="false" >
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bgd3" />
+    <include layout="@layout/analog3hours" />
+	<include layout="@layout/date2_widget" />
+    <include layout="@layout/analog3minutes" />
+    <include layout="@layout/analog3seconds" />
+
+</RelativeLayout>

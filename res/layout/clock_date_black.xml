@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="215.0px" android:layout_height="170.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:widgets="http://schemas.android.com/apk/res-auto">
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="35.0px" android:layout_height="35.0px" android:layout_marginLeft="6.2px" android:layout_marginTop="6.0px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" widgets:gravity="center">
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" widgets:textSize="22.0px" widgets:timeType="days_of_month" widgets:template="dd" widgets:fontPath="Clockopia.otf" />
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="35.0px" android:layout_height="35.0px" android:layout_marginLeft="5.5px" android:layout_marginBottom="4.5px" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" widgets:gravity="center">
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAllCaps="true" widgets:textSize="15.0px" widgets:timeType="days_of_week" widgets:template="EE" widgets:fontPath="Clockopia.otf" />
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="35.0px" android:layout_height="35.0px" android:layout_marginTop="6.5px" android:layout_marginRight="5.5px" android:layout_alignParentTop="true" android:layout_alignParentRight="true" widgets:gravity="center">
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" widgets:textSize="22.0px" widgets:timeType="months" widgets:template="MM" widgets:fontPath="Clockopia.otf" />
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="35.0px" android:layout_height="35.0px" android:layout_marginRight="6.5px" android:layout_marginBottom="5.8px" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" widgets:gravity="center">
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" widgets:textSize="22.0px" widgets:timeType="years_digit2" widgets:fontPath="Clockopia.otf" />
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" widgets:textSize="22.0px" widgets:timeType="years_digit1" widgets:fontPath="Clockopia.otf" />
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+</RelativeLayout>

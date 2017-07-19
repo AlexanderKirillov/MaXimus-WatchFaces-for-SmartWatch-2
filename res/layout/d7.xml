@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:widgets="http://schemas.android.com/apk/res-auto"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:baselineAligned="false"
+android:gravity="center"
+android:orientation="horizontal" >
+
+<com.sonyericsson.extras.liveware.aef.widget.TimeLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:layout_marginTop="-10px"
+widgets:gravity="center" >
+
+<com.sonyericsson.extras.liveware.aef.widget.TimeView
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:textColor="@android:color/white"
+widgets:textSize="85px"
+widgets:fontPath="annj5dif.otf"
+widgets:timeType="hours_digit2" />
+
+<com.sonyericsson.extras.liveware.aef.widget.TimeView
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:textColor="@android:color/white"
+widgets:textSize="84px"
+widgets:fontPath="annj5dif.otf"
+widgets:timeType="hours_digit1"/>
+
+<com.sonyericsson.extras.liveware.aef.widget.TimeView
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:textColor="@android:color/white"
+widgets:textSize="80px"
+widgets:fontPath="annj5dif.otf"
+widgets:timeType="constant"
+android:text=":" />
+
+<com.sonyericsson.extras.liveware.aef.widget.TimeView
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+widgets:textSize="84px"
+android:textColor="@android:color/white"
+widgets:fontPath="annj5dif.otf"
+widgets:timeType="minutes" />
+
+</com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+
+</LinearLayout>

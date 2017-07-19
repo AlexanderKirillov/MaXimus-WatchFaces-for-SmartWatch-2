@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widgets="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"  android:orientation="horizontal" widgets:gravity="center" android:layout_marginTop="5.0px">
+
+	  <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="#FFFFFF" android:layout_width="wrap_content" android:layout_height="fill_parent" widgets:textSize="23px"  android:textAllCaps="true" android:includeFontPadding="false" widgets:timeType="days_of_month" widgets:fontPath="Clockopia.otf" widgets:template="dd" />
+      <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="#FFFFFF" android:layout_width="wrap_content" android:layout_height="fill_parent" widgets:textSize="23px"  android:textAllCaps="true" android:includeFontPadding="false" widgets:timeType="months" widgets:fontPath="Clockopia.otf" widgets:template=" MMMM" />
+          
+
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="215.0px" android:layout_height="170.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:widgets="http://schemas.android.com/apk/res-auto">
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="167.0px" android:layout_marginTop="68.0px" android:layout_weight="0.5">
+       <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" widgets:textSize="16.0px" widgets:timeType="days_of_month" widgets:fontPath="Clockopia.otf" widgets:template="dd."/>
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" widgets:textSize="16.0px" widgets:timeType="months" widgets:fontPath="Clockopia.otf" widgets:template="MM"/> 
+        </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+     <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="175.0px" android:layout_marginTop="82.0px">
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            widgets:fontPath="Clockopia.otf"
+            widgets:template="EE"
+            widgets:textSize="17px"
+            widgets:timeType="days_of_week" />
+
+  </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+</RelativeLayout>

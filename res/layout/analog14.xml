@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widgets="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/com.sonymobile.smartconnect.extension.testclock"
+    android:layout_width="215px"
+    android:layout_height="170px"
+    android:background="@android:color/transparent"
+    android:baselineAligned="false" >
+
+    <!-- We set a background on containing the base for a watch face. -->
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bgd14" />
+    <include layout="@layout/analog14hours" />
+    <include layout="@layout/analog14minutes"/>
+	<include layout="@layout/analog14seconds"/>
+	<include layout="@layout/clock_date_black14" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:widgets="http://schemas.android.com/apk/res-auto"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:baselineAligned="false"
+android:gravity="center"
+android:orientation="horizontal" >
+
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="-3.0px" android:layout_weight="0.23" widgets:gravity="center">
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="fill_parent" widgets:textSize="80.0px" widgets:timeType="hours_digit2" widgets:fontPath="digit.ttf" />
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="-3.0px" android:layout_weight="0.23" widgets:gravity="center">
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="fill_parent" widgets:textSize="80.0px" widgets:timeType="hours_digit1" widgets:fontPath="digit.ttf" />
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.08" widgets:gravity="center">
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:text=":" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="fill_parent" widgets:timeType="constant" widgets:fontPath="digit.ttf" widgets:textSize="80.0px"/>
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="-3.0px" android:layout_weight="0.23" widgets:gravity="center">
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="fill_parent" widgets:textSize="80.0px" widgets:timeType="minutes_digit2" widgets:fontPath="digit.ttf" />
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="-3.0px" android:layout_weight="0.23" widgets:gravity="center">
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="fill_parent" widgets:textSize="80.0px" widgets:timeType="minutes_digit1" widgets:fontPath="digit.ttf" />
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+    </LinearLayout>
+
